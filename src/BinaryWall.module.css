@@ -1,0 +1,21 @@
+.wall {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.dot,
+.bit {
+    font-size: 1.875rem;
+    font-family: "Cascadia Code", sans-serif;
+    letter-spacing: calc(250rem * 0.001);
+    line-height: 2.5rem;
+    color: hsla(0, 0%, 44%, 0.1);
+    user-select: none;
+}
+
+.dot {
+    font-weight: 900;
+}

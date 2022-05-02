@@ -1,0 +1,17 @@
+.external_links {
+    position: absolute;
+    top: 70px;
+    right: 60px;
+    display: flex;
+    column-gap: 50px;
+}
+.connection_icon {
+    display: grid;
+    place-items: center;
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    box-shadow: inset 3px 3px 6px hsla(0, 0%, 0%, 0.1);
+}
